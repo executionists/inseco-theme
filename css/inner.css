@@ -1,0 +1,379 @@
+#header-image {
+	display:block;
+	float:left;
+	margin-bottom:30px;
+	width: 100%;
+	text-align:center;
+}
+
+/* submenu */
+
+#nav {
+	display:block;
+	float:left;
+	width: 150px;
+	/*margin-right:10px;*/
+	margin-left: -30px;
+}
+
+.entry-content {
+	display: block;
+    float: left;
+    margin: 0 0 48px;
+    width: 735px;
+    padding-left: 45px;
+	clear: none;
+}
+
+.entry-content p {
+	font: 12px/17px Arial;
+	color:#000; 
+}
+
+.entry-content .main-content p{
+	text-align: justify;
+}
+
+.entry-content h1 {
+	font:bold 22px "Helvetica Neue",Arial,Helvetica,sans-serif; 
+	color:#000; 
+	margin-bottom:10px;
+}
+.entry-content h2 { 
+	margin:0; 
+	font:bold 18px Arial; 
+	color:#000; 
+	margin-bottom:10px;
+}
+
+.entry-content .main-content {
+	display:block;
+	float:left;
+	width: 100%;
+	/*width: 737px;*/
+	/*padding-left:18px;*/
+}
+
+#main #submenu {
+    width: 154px;
+	margin:0;
+}
+
+#main #submenu2 {
+    width: 154px;
+	margin:0;
+}
+
+#main #submenu ul, #main #submenu2 ul {
+	/*background: url("../images/subnav-bg.png") no-repeat scroll 0 0 transparent;*/
+	background: #cccccc;
+	margin:0;
+	height: auto;
+}
+
+#main #submenu ul li, #main #submenu2 ul li {
+	height: 88px;
+	width:154px;
+	position : relative;
+	border-bottom: solid 1px #fff;
+	-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-size: auto 45px !important;
+    background-position: 105px center !important;
+}
+
+#main #submenu ul li a, #main #submenu2 ul li a{
+	height: 88px;
+	width:95px;
+	left: 10px;
+	position: absolute;
+	display: flex;
+	align-items: center; 
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 15px;
+	text-transform: uppercase;
+	
+	/*text-indent: -9999px;*/
+}
+#main #submenu ul li#menu-item-279 {
+	background: url("../images/icon/in_icon_sciences_white.png") no-repeat;
+}
+
+#main #submenu ul li#menu-item-280, #main #submenu2 ul li#menu-item-280	{ 
+	background: url("../images/icon/in_icon_pharma_white.png") no-repeat;
+}
+#main #submenu ul li#menu-item-278, #main #submenu2 ul li#menu-item-278 { 
+	background: url("../images/icon/in_icon_sitebilt_white.png") no-repeat;
+}
+#main #submenu ul li#menu-item-277, #main #submenu2 ul li#menu-item-277 { 
+	background: url("../images/icon/in_icon_pump_white.png") no-repeat;
+}
+#main #submenu ul li#menu-item-276, #main #submenu2 ul li#menu-item-276 { 
+	background: url("../images/icon/in_icon_parts_white.png") no-repeat;
+}
+#main #submenu ul li#menu-item-979, #main #submenu2 ul li#menu-item-979 { 
+	background: url("../images/icon/in_icon_air_white.png") no-repeat;
+}
+
+#main #submenu ul li#menu-item-279:hover, #main #submenu ul li#menu-item-279.current-menu-item, #main #submenu2 ul li#menu-item-279:hover, #main #submenu2 ul li#menu-item-279.current-menu-item {
+	background: #6ee67f url("../images/icon/in_icon_sciences_white.png") no-repeat;
+}
+
+#main #submenu ul li#menu-item-280:hover, #main #submenu ul li#menu-item-280.current-menu-item, #main #submenu2 ul li#menu-item-280:hover, #main #submenu2 ul li#menu-item-280.current-menu-item { 
+	background: #6ee67f url("../images/icon/in_icon_pharma_white.png") no-repeat;
+}
+#main #submenu ul li#menu-item-278:hover, #main #submenu ul li#menu-item-278.current-menu-item, #main #submenu2 ul li#menu-item-278:hover, #main #submenu2 ul li#menu-item-278.current-menu-item { 
+	background: #6ee67f url("../images/icon/in_icon_sitebilt_white.png") no-repeat;
+}
+#main #submenu ul li#menu-item-277:hover, #main #submenu ul li#menu-item-277.current-menu-item, #main #submenu2 ul li#menu-item-277:hover, #main #submenu2 ul li#menu-item-277.current-menu-item { 
+	background: #6ee67f url("../images/icon/in_icon_pump_white.png") no-repeat;
+}
+#main #submenu ul li#menu-item-276:hover, #main #submenu ul li#menu-item-276.current-menu-item, #main #submenu2 ul li#menu-item-276:hover, #main #submenu2 ul li#menu-item-276.current-menu-item { 
+	background: #6ee67f url("../images/icon/in_icon_parts_white.png") no-repeat;
+}
+#main #submenu ul li#menu-item-979:hover, #main #submenu ul li#menu-item-979.current-menu-item, #main #submenu2 ul li#menu-item-979:hover, #main #submenu2 ul li#menu-item-979.current-menu-item { 
+	background: #6ee67f url("../images/icon/in_icon_air_white.png") no-repeat;
+}
+
+
+#wrapper #main {
+	padding-top: 0;
+}
+
+#main #container .entry-content {
+	padding-top: 0;
+}
+
+#main #cntright h1{
+	margin-bottom: 20px;
+}
+#main .blk p a {
+	color: #87b855;
+}
+
+#wrapper #main {
+	padding-bottom: 20px;
+}
+
+.entry-content #companies {
+	display:block;
+	float:left;
+	width:100%;
+}
+.entry-content #companies ul{
+	list-style-type: none;
+	margin: 0;
+}
+.entry-content #companies ul li{
+	border-top: 1px solid #eee;
+	/*width: 725px;*/
+	width: 100%;
+	/*padding: 10px 0px;*/
+	padding: 25px 0px;
+	margin-right:10px;
+	display:block;
+	float:left;
+}
+
+.entry-content #companies ul li.last {
+	border-bottom: 1px solid #eee;
+}
+
+.entry-content #companies ul li .desc {
+	display:block;
+	float:left;
+	font: bold 14px/14px Arial;
+	width:510px;
+}
+.entry-content #companies ul li .desc h3 {
+	clear:none;
+	margin-bottom:10px;
+    color: #000;
+    font: bold 16px Arial;
+}
+
+.entry-content #companies ul li .image {
+	display:block;
+	float:left;
+	margin-right: 15px;
+	width:200px;
+	text-align: center;
+}
+.entry-content #companies ul li .image img
+{
+	max-width: 140px;
+}
+
+/* Contact Page */
+
+#contact {
+	margin-left: 0;
+	/*min-height: 456px; */
+	height:auto;
+	width: 602px;
+}
+
+#contact .leftc, #contact .rightc {
+	margin-top:0;
+	height: auto;
+	padding-bottom:10px;
+	font: 12px/20px "Helvetica Neue",Arial,Helvetica,sans-serif;
+}
+
+.entry-content #contact .wpcf7-submit {
+	background-color: #87b855;
+	border:1px solid #55b8a2;
+	display:block;
+	float:right;
+	width:106px;
+	height: 31px;
+	margin-right:35px;
+	text-align: center;
+	cursor:pointer;
+	color: #FFF;
+}
+
+.entry-content #right-col {
+	display:block;
+	float:left;
+	width: 140px;
+}
+
+.entry-content .third h3 a {
+	font: 16px/16px "Helvetica Neue",Arial,Helvetica,sans-serif;
+	color: #0066CC;
+	margin-bottom:15px;
+	display:block;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+/* Service Form */
+
+.entry-content #wpcf7-f84-p86-o1 p {
+	font-weight:normal;
+}
+
+.entry-content #wpcf7-f84-p86-o1 p input {
+	width: auto;
+	height: auto;
+}
+
+.entry-content #wpcf7-f84-p86-o1 .wpcf7-list-item {
+	display:block;
+	float:left;
+}
+
+.entry-content #wpcf7-f84-p86-o1 .wpcf7-submit {
+	float:left;
+} 
+
+/* News and Events */
+
+#news-and-events {
+	display:block;
+	float:left;
+	width:100%;
+}
+#news-and-events #tabs {
+	display:block;
+	float:left;
+	width:300px;
+	height:30px;
+	background-color: #fff;
+}
+
+#news-and-events #tabs .tab{
+	display:block;
+	float:left;
+	width:130px;
+	height:20px;
+	padding: 5px;
+	text-align:center;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	margin: 0px 8px 0px 0px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+#news-and-events #tabs .tab a{
+	font: 19px/14px "Helvetica Neue",Arial,Helvetica,sans-serif;
+	color: #383838;
+	text-decoration:none;
+}
+
+#news-and-events #tabs .active a{
+	text-decoration:underline;
+}
+
+.tab-content {
+	display:block;
+	float:left;
+	width:100%;
+	border-top:1px solid #ccc;
+	padding-top: 15px;
+}
+#events {
+	display:none;
+}
+
+#news-and-events .item {
+	display:block;
+	float:left;
+	width:730px;
+	padding: 10px;
+	margin: 0px 0px 15px 0px;
+	border-bottom: 1px solid #eee;
+}
+
+#news-and-events .tab-content-text h3, #news-and-events .tab-content-text p, #news-and-events .tab-content-text span{
+	font: 12px/18px "Helvetica Neue",Arial,Helvetica,sans-serif;
+	color: #000;
+}
+
+#news-and-events .tab-content-text h3 {
+	font-weight:bold;
+	clear:none;
+}
+
+#news-and-events .tab-content-text span.date{
+	font-style: italic;
+}
+
+#news-and-events .tab-content-text a.more {
+	font: 12px/18px "Helvetica Neue",Arial,Helvetica,sans-serif;
+	color: #669933;
+	text-decoration:none;
+}
+
+#news-and-events .tab-content-image {
+	float:left;
+}
+
+.single .entry-content .main-content p {
+	font: 12px/18px "Helvetica Neue",Arial,Helvetica,sans-serif;
+	color: #000;
+}
+
+#main #archive-sidebar {
+    display:block;
+    float:left;
+}
+
+/* News and events end */
+
+#contact-list a {
+	font: 13px/18px "Helvetica Neue",Arial,Helvetica,sans-serif;
+	color:#669933;
+}
+#contact-list img.wp-image-357 {
+	position:relative;
+	top:17px;
+}
+
