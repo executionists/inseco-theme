@@ -186,11 +186,11 @@
 }
 #container #menub .spe #compressed {
 	/*background-position: -404px 0px;*/
-	background: url(../images/icon/in_icon_air_reg.png);
+	background: url(../images/icon/in_icon_air_reg_V2.png);
 }
 #container #menub .spe #compressed:hover
 {
-	background: url(../images/icon/in_icon_air_rollover.png);
+	background: url(../images/icon/in_icon_air_rollover_V2.png);
 }
 #container #sponsors{
 	display:block;
