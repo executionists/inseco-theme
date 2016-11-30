@@ -77,18 +77,18 @@ $(document).ready( function(){
 
 </div>
 <div style="display: none">
-	<img src="/wp-content/themes/inseco/images/icon/in_icon_pharma_reg.png"></img>
-	<img src="/wp-content/themes/inseco/images/icon/in_icon_pharma_rollover.png"></img>
-	<img src="/wp-content/themes/inseco/images/icon/in_icon_sciences_reg.png"></img>
-	<img src="/wp-content/themes/inseco/images/icon/in_icon_sciences_rollover.png"></img>
-	<img src="/wp-content/themes/inseco/images/icon/in_icon_sitebilt_reg.png"></img>
-	<img src="/wp-content/themes/inseco/images/icon/in_icon_sitebilt_rollover.png"></img>
-	<img src="/wp-content/themes/inseco/images/icon/in_icon_pump_reg.png"></img>
-	<img src="/wp-content/themes/inseco/images/icon/in_icon_pump_rollover.png"></img>
-	<img src="/wp-content/themes/inseco/images/icon/in_icon_parts_reg.png"></img>
-	<img src="/wp-content/themes/inseco/images/icon/in_icon_parts_rollover.png"></img>
-	<img src="/wp-content/themes/inseco/images/icon/in_icon_air_reg_V2.png"></img>
-	<img src="/wp-content/themes/inseco/images/icon/in_icon_air_rollover_V2.png"></img>
+	<img src="<?=get_template_directory_uri()?>/images/icon/in_icon_pharma_reg.png"></img>
+	<img src="<?=get_template_directory_uri()?>/images/icon/in_icon_pharma_rollover.png"></img>
+	<img src="<?=get_template_directory_uri()?>/images/icon/in_icon_sciences_reg.png"></img>
+	<img src="<?=get_template_directory_uri()?>/images/icon/in_icon_sciences_rollover.png"></img>
+	<img src="<?=get_template_directory_uri()?>/images/icon/in_icon_sitebilt_reg.png"></img>
+	<img src="<?=get_template_directory_uri()?>/images/icon/in_icon_sitebilt_rollover.png"></img>
+	<img src="<?=get_template_directory_uri()?>/images/icon/in_icon_pump_reg.png"></img>
+	<img src="<?=get_template_directory_uri()?>/images/icon/in_icon_pump_rollover.png"></img>
+	<img src="<?=get_template_directory_uri()?>/images/icon/in_icon_parts_reg.png"></img>
+	<img src="<?=get_template_directory_uri()?>/images/icon/in_icon_parts_rollover.png"></img>
+	<img src="<?=get_template_directory_uri()?>/images/icon/in_icon_air_reg_V2.png"></img>
+	<img src="<?=get_template_directory_uri()?>/images/icon/in_icon_air_rollover_V2.png"></img>
 </div>
 <div style="text-align:center" id="menub">
 	<ul class="spe">
