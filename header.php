@@ -99,9 +99,9 @@
 				<<?php echo $heading_tag; ?> id="site-title">
 					
 				</<?php echo $heading_tag; ?>>
-                <div class="header-service-form">
-                	<a href="/service-form">Service Form</a>
-                </div>
+                <!--<div class="header-service-form">-->
+                <!--	<a href="/service-form">Service Form</a>-->
+                <!--</div>-->
 				<!--<div id="site-description"><?php //bloginfo( 'description' ); ?></div>-->
                 <div id="access" role="navigation">
 			  <?php /*  Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff */ ?>

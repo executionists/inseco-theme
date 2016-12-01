@@ -23,13 +23,15 @@ get_header();
 							<?php the_post_thumbnail(); ?>
 							<?php the_content(); ?>
 						</div>
-						<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'twentyten' ), 'after' => '</div>' ) ); ?>
+						<div id="archive-sidebar">
+	                        <h3><strong>Archives</strong></h3>
+	                        <ul>
+	                        	<?php wp_get_archives('type=monthly&limit=12'); ?>
+	                        </ul>
+	                    </div>
+	                    <?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'twentyten' ), 'after' => '</div>' ) ); ?>
 						<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>
 					</div><!-- .entry-content -->
-                    <div id="archive-sidebar">
-                        <h3><strong>Archives</strong></h3>
-                        <?php wp_get_archives('type=monthly&limit=12'); ?>
-                    </div>
 				</div><!-- #post-## -->
 
 

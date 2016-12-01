@@ -51,5 +51,7 @@
 </div>
 <div id="archive-sidebar">
     <h3><strong>Archives</strong></h3>
+    <ul>
     <?php wp_get_archives('type=monthly&limit=12'); ?>
+    </ul>
 </div>
