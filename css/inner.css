@@ -87,7 +87,9 @@
 #main #submenu ul li a, #main #submenu2 ul li a{
 	height: 88px;
 	width:95px;
-	left: 10px;
+	/*left: 10px;*/
+	padding-left: 10px;
+    padding-right: 49px;
 	position: absolute;
 	display: flex;
 	align-items: center; 
@@ -309,7 +311,7 @@
 }
 
 #news-and-events #tabs .active a{
-	text-decoration:underline;
+	/*text-decoration:underline;*/
 }
 
 .tab-content {

@@ -274,4 +274,16 @@ a.pdf-icon:hover
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.sitemap-menu
+{
+    color: white !important;
+    text-decoration: none;
+    position: absolute;
+    right: 95px;
+    top: 34px;
+    font-size: 12px;
+}
+#superfooter
+{
+    position: relative;
+}

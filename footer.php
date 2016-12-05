@@ -52,6 +52,7 @@
 	    margin-top: 0px;
 	    margin-left: 5px;
 	">Site Designed by <br>Executionists</a>
+	<a href="/sitemap" class="sitemap-menu">Sitemap</a>
 	<a target="_blank" href="http://www.linkedin.com/company/inseco---industrial-systems-&-equipment-company" target="_blank">
 		<img src="<?=get_template_directory_uri()?>/images/social/in.png" alt="linkedin" width="32" height="32"/>
 	</a>
