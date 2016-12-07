@@ -292,6 +292,10 @@ a.pdf-icon:hover
     list-style: none;
     margin-left: 0;
 }
+.wsp-container .children
+{
+    list-style: none
+}
 .wsp-container ul.wsp-pages-list li, .wsp-container ul.children li
 {
     margin-bottom: 3.5px;
