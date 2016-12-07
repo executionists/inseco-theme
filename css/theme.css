@@ -287,3 +287,28 @@ a.pdf-icon:hover
 {
     position: relative;
 }
+.wsp-container .wsp-pages-list
+{
+    list-style: none;
+    margin-left: 0;
+}
+.wsp-container ul.wsp-pages-list li, .wsp-container ul.children li
+{
+    margin-bottom: 3.5px;
+    margin-top: 3.5px;
+}
+.wsp-container ul.wsp-pages-list li a, .wsp-container ul.children li a
+{
+    color: #7f7e7e;
+    font-size: 12px;
+    font-family: arial;
+    text-decoration: none;
+    transition: All 0.3s linear;
+    -webkit-transition: All 0.3s linear;
+    -moz-transition: All 0.3s linear;
+    -o-transition: All 0.3s linear;
+}
+.wsp-container ul.wsp-pages-list li a:hover, .wsp-container ul.children li a:hover
+{
+    color: #349e5e;
+}

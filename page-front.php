@@ -72,7 +72,7 @@ $(document).ready( function(){
 		<div class="post-content">
 			<p>For each of the product lines that we represent, our technicians are factory certified to provide service and technical support as needed.</p>
 		</div>
-		<a class="readmore" href="<?php bloginfo('url'); ?>/spare-parts-and-field-services">View More......</a>
+		<a class="readmore" href="<?php bloginfo('url'); ?>/spare-parts-and-services">View More......</a>
 	</div>
 
 </div>
@@ -96,7 +96,7 @@ $(document).ready( function(){
 		<li id="pharm"><a href="<?php bloginfo('url'); ?>/pharmindustrial" rel="section" title="Go to Pharm and Process Equip"><span>Pharmaceutical & Process Equipment</span></a></li> 
 		<li id="site-bilt"><a href="<?php bloginfo('url'); ?>/site-bilt-hvac" rel="section" title="Go to Site Bilt"><span>Site Bilt”</span></a></li> 
 		<li id="pumps"><a href="<?php bloginfo('url'); ?>/pumps-and-mechanical-seals" rel="section" title="Go to Pumps and Mechanical Seals"><span>pumps & mechanical seals</span></a></li> 
-		<li id="spare-parts"><a href="<?php bloginfo('url'); ?>/spare-parts-and-field-services" rel="section" title="Go to Spare Parts and Field Services"><span>Spare Parts & Field services</span></a></li> 
+		<li id="spare-parts"><a href="<?php bloginfo('url'); ?>/spare-parts-and-services" rel="section" title="Go to Spare Parts and Field Services"><span>Spare Parts & Field services</span></a></li> 
 		<li id="compressed"><a href="<?php bloginfo('url'); ?>/compressed-air-systems" rel="section" title="Compressed Air Systems"><span>Compressed Air Systems</span></a></li> 
 	</ul>
 	<!-- <img src="<?php bloginfo('template_directory'); ?>/images/icons_front.jpg"/>-->
